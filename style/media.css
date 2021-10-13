@@ -1,0 +1,252 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .main-films-card {
+        width: 48%;
+    }
+
+    .main-films-card:nth-of-type(n+3) {
+        margin-top: 30px;
+    }
+
+    .main-films-card img {
+        width: 100%;
+    }
+
+    .collections-discription {
+        flex-wrap: wrap;
+    }
+
+    .collections-card {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .collections-card:nth-of-type(n+2) {
+        margin-top: 30px;
+    }
+
+    .collections-card img {
+        width: 100%;
+    }
+
+    .collections-span {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .span::before,
+    .span:after {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .widow {
+        padding-bottom: 50px;
+    }
+
+    .series-item-side p {
+        line-height: 20px;
+        margin: 10px 0 20px;
+    }
+
+    .series-item-photo:nth-of-type(3) {
+        grid-column: 3/5;
+    }
+
+    .series-item-photo:nth-of-type(4) {
+        grid-column: 3/5;
+    }
+
+    .series-item-photo:nth-of-type(5) {
+        grid-column: 1/3;
+    }
+
+    .series-item-photo:nth-of-type(6) {
+        grid-column: 3/5;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 570px;
+    }
+
+    .header-kong-logo {
+        font-size: 40px;
+    }
+
+    .header-kong-text {
+        margin-bottom: 10px;
+    }
+
+    .header-kong-link a{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .widow-intro a {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .series-item-side a {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        margin-top: 20px;
+    }
+
+    .nav {
+        padding-top: 10px;
+    }
+
+    .nav-list li a::after {
+        margin-top: 30px;
+    }
+
+    .header-films {
+        padding: 10px 0;
+    }
+
+    .widow-intro p {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .span::before,
+    .span:after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .series-item-side {
+        padding-left: 20px;
+    }
+
+    .series-item-side p {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .series-item-side h2 {
+        font-size: 30px;
+    }
+
+    .footer-item {
+        flex-direction: column;
+    }
+
+    .footer-proweb {
+        margin-top: 10px;
+    }
+
+    .series-item-side:nth-of-type(n+2) {
+        grid-column: 1/5;
+    }
+}
+
+@media (max-width:570px) {
+    .header-kong-logo {
+        font-size: 30px;
+        line-height: 20px;
+    }
+
+    .header-kong-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .main-films-logo {
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .main-films {
+        padding-top: 20px;
+    }
+
+    .main-films-side p {
+        max-width: 200px;
+    }
+
+    .series-item-side p {
+        min-height: 80px;
+        overflow: hidden;
+        margin-top: 0;
+    }
+
+    .main-films-side p:nth-of-type(1) {
+        margin-bottom: 5px;
+    }
+
+    .header-kong-link {
+        font-size: 10px;
+    }
+
+    .series-item-side {
+        padding: 20px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 510px) {
+    .series-item-side {
+        padding: 20px;
+        line-height: 14px;
+    }
+    .widow-intro img{
+        max-width: 70%;
+    }
+    .main-films-card{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .main-films-card:nth-of-type(1){
+        margin-bottom: 30px;
+    }
+    .series-item-photo:nth-of-type(1){
+        min-height: 250px;
+    }
+    .intro-text{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .hedaer-bg img{
+        min-height: 250px;
+    }
+   
+}
+@media (max-width: 430px) {
+    .span::before,
+    .span:after {
+        width: 15px;
+        height: 15px;
+    }
+    .span{
+        margin-bottom: 0;
+    }
+    .nav-list li a{
+        margin: 0;
+        padding: 0 10px;
+    }
+}
